@@ -14,7 +14,7 @@ to help simplify deployment of Swift functions.
 2. Clone this repo and configure OpenWhisk
     1. If you haven't already done so clone this repo.
 	2. Create a file in _serverless-swift-app/deploy_ called _wsk_set_env_prod.sh_.
-	3. Paste the content from *step 2.c.* into _wsk_set_env_prod.sh_.
+	3. Paste the content from **step 1.c.** into _wsk_set_env_prod.sh_.
 	4. Make sure _serverless-swift-app/deploy/wsk_set_env_prod.sh_ is executable (`chmod +x serverless-swift-app/deploy/wsk_set_env_prod.sh`).
 
 ## Deploying functions
@@ -26,7 +26,7 @@ You cannot upload the functions using the OpenWhisk CLI only.
 ##  Embedding Libraries
 
 As of this writing OpenWhisk does not support bundling of Swift libraries with your functions. 
-We have worked around this issue by allowing you to embed other Swift files in your functions.
+We have worked around this limitation by allowing you to embed other Swift files in your functions.
 The _wsk_deploy_func_to_prod.sh_ will run your Swift function through the [Jinja2 Template Engine](http://jinja.pocoo.org/).
 This allows you to add includes to your Swift functions. The contents of the included files will be embedded
 in the function prior to uploading to OpenWhisk.
