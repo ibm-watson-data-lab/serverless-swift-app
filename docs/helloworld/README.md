@@ -16,7 +16,7 @@ to OpenWhisk, launching the sample iOS app from Xcode, and calling the Hello Wor
 3. Clone this repo and configure OpenWhisk:
     1. If you haven't already done so clone this repo.
 	2. Create a file in *serverless-swift-app/deploy* called *wsk_set_env_prod.sh*.
-	3. Paste the content from **step 2.d.** into *wsk_set_env_prod.sh*.
+	3. Paste the content from **step 2.iv.** into *wsk_set_env_prod.sh*.
 	4. Make sure *serverless-swift-app/deploy/wsk_set_env_prod.sh* is executable (`chmod +x serverless-swift-app/deploy/wsk_set_env_prod.sh`).
 
 ## OpenWhisk CLI
