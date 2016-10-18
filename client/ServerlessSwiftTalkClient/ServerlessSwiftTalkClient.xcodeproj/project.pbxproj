@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		692240310B014EDDBE5053B6 /* Pods_ServerlessSwiftTalkClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7C323EAF6ECD5E79692104 /* Pods_ServerlessSwiftTalkClient.framework */; };
+		D740AFC51DAD4D7500757BE3 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740AFC41DAD4D7500757BE3 /* RegisterViewController.swift */; };
+		D740AFC81DAD5F4D00757BE3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740AFC71DAD5F4D00757BE3 /* LoginViewController.swift */; };
+		D740AFCA1DAD619B00757BE3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740AFC91DAD619B00757BE3 /* ProfileViewController.swift */; };
+		D740AFCF1DB11DFD00757BE3 /* LoginGitHubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740AFCE1DB11DFD00757BE3 /* LoginGitHubViewController.swift */; };
+		D77B82191D9D93B000A068DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77B82181D9D93B000A068DF /* AppDelegate.swift */; };
+		D77B821B1D9D93B000A068DF /* HelloWorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77B821A1D9D93B000A068DF /* HelloWorldViewController.swift */; };
+		D77B821E1D9D93B000A068DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77B821C1D9D93B000A068DF /* Main.storyboard */; };
+		D77B82201D9D93B000A068DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77B821F1D9D93B000A068DF /* Assets.xcassets */; };
+		D77B82231D9D93B000A068DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77B82211D9D93B000A068DF /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D77B822A1D9D93B000A068DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D77B820D1D9D93B000A068DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D77B82141D9D93B000A068DF;
+			remoteInfo = ServerlessSwiftTalkClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15A2B9E61327C37E2D9D68A9 /* Pods-ServerlessSwiftTalkClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerlessSwiftTalkClient.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ServerlessSwiftTalkClient/Pods-ServerlessSwiftTalkClient.release.xcconfig"; sourceTree = "<group>"; };
+		920ACE24CDA600DB74842FF8 /* Pods-ServerlessSwiftTalkClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerlessSwiftTalkClient.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ServerlessSwiftTalkClient/Pods-ServerlessSwiftTalkClient.debug.xcconfig"; sourceTree = "<group>"; };
+		CE7C323EAF6ECD5E79692104 /* Pods_ServerlessSwiftTalkClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServerlessSwiftTalkClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D740AFC41DAD4D7500757BE3 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D740AFC71DAD5F4D00757BE3 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D740AFC91DAD619B00757BE3 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D740AFCE1DB11DFD00757BE3 /* LoginGitHubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginGitHubViewController.swift; sourceTree = "<group>"; };
+		D77B82151D9D93B000A068DF /* ServerlessSwiftTalkClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerlessSwiftTalkClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D77B82181D9D93B000A068DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D77B821A1D9D93B000A068DF /* HelloWorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldViewController.swift; sourceTree = "<group>"; };
+		D77B821D1D9D93B000A068DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D77B821F1D9D93B000A068DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D77B82221D9D93B000A068DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D77B82241D9D93B000A068DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D77B82291D9D93B000A068DF /* ServerlessSwiftTalkClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerlessSwiftTalkClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D77B82121D9D93B000A068DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692240310B014EDDBE5053B6 /* Pods_ServerlessSwiftTalkClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77B82261D9D93B000A068DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A5035F4E77650BC2EA58DC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				920ACE24CDA600DB74842FF8 /* Pods-ServerlessSwiftTalkClient.debug.xcconfig */,
+				15A2B9E61327C37E2D9D68A9 /* Pods-ServerlessSwiftTalkClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		949A7FAE51EE63CF2A165F0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE7C323EAF6ECD5E79692104 /* Pods_ServerlessSwiftTalkClient.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D740AFC61DAD4D8400757BE3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D77B821A1D9D93B000A068DF /* HelloWorldViewController.swift */,
+				D740AFC41DAD4D7500757BE3 /* RegisterViewController.swift */,
+				D740AFC71DAD5F4D00757BE3 /* LoginViewController.swift */,
+				D740AFCE1DB11DFD00757BE3 /* LoginGitHubViewController.swift */,
+				D740AFC91DAD619B00757BE3 /* ProfileViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D77B820C1D9D93B000A068DF = {
+			isa = PBXGroup;
+			children = (
+				D77B82171D9D93B000A068DF /* ServerlessSwiftTalkClient */,
+				D77B82161D9D93B000A068DF /* Products */,
+				3A5035F4E77650BC2EA58DC1 /* Pods */,
+				949A7FAE51EE63CF2A165F0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D77B82161D9D93B000A068DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D77B82151D9D93B000A068DF /* ServerlessSwiftTalkClient.app */,
+				D77B82291D9D93B000A068DF /* ServerlessSwiftTalkClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D77B82171D9D93B000A068DF /* ServerlessSwiftTalkClient */ = {
+			isa = PBXGroup;
+			children = (
+				D740AFC61DAD4D8400757BE3 /* View Controllers */,
+				D77B82181D9D93B000A068DF /* AppDelegate.swift */,
+				D77B821C1D9D93B000A068DF /* Main.storyboard */,
+				D77B821F1D9D93B000A068DF /* Assets.xcassets */,
+				D77B82211D9D93B000A068DF /* LaunchScreen.storyboard */,
+				D77B82241D9D93B000A068DF /* Info.plist */,
+			);
+			path = ServerlessSwiftTalkClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D77B82141D9D93B000A068DF /* ServerlessSwiftTalkClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77B82321D9D93B000A068DF /* Build configuration list for PBXNativeTarget "ServerlessSwiftTalkClient" */;
+			buildPhases = (
+				1D28F2BE9BF5B6932D018EB5 /* 📦 Check Pods Manifest.lock */,
+				D77B82111D9D93B000A068DF /* Sources */,
+				D77B82121D9D93B000A068DF /* Frameworks */,
+				D77B82131D9D93B000A068DF /* Resources */,
+				F43757F6624B8889ED0AF9BB /* 📦 Embed Pods Frameworks */,
+				981CC46B78A2ED6FE739210A /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerlessSwiftTalkClient;
+			productName = ServerlessSwiftTalkClient;
+			productReference = D77B82151D9D93B000A068DF /* ServerlessSwiftTalkClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D77B82281D9D93B000A068DF /* ServerlessSwiftTalkClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D77B82351D9D93B000A068DF /* Build configuration list for PBXNativeTarget "ServerlessSwiftTalkClientUITests" */;
+			buildPhases = (
+				D77B82251D9D93B000A068DF /* Sources */,
+				D77B82261D9D93B000A068DF /* Frameworks */,
+				D77B82271D9D93B000A068DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D77B822B1D9D93B000A068DF /* PBXTargetDependency */,
+			);
+			name = ServerlessSwiftTalkClientUITests;
+			productName = ServerlessSwiftTalkClientUITests;
+			productReference = D77B82291D9D93B000A068DF /* ServerlessSwiftTalkClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D77B820D1D9D93B000A068DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "IBM CDS Labs";
+				TargetAttributes = {
+					D77B82141D9D93B000A068DF = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					D77B82281D9D93B000A068DF = {
+						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D77B82141D9D93B000A068DF;
+					};
+				};
+			};
+			buildConfigurationList = D77B82101D9D93B000A068DF /* Build configuration list for PBXProject "ServerlessSwiftTalkClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D77B820C1D9D93B000A068DF;
+			productRefGroup = D77B82161D9D93B000A068DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D77B82141D9D93B000A068DF /* ServerlessSwiftTalkClient */,
+				D77B82281D9D93B000A068DF /* ServerlessSwiftTalkClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D77B82131D9D93B000A068DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77B82231D9D93B000A068DF /* LaunchScreen.storyboard in Resources */,
+				D77B82201D9D93B000A068DF /* Assets.xcassets in Resources */,
+				D77B821E1D9D93B000A068DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77B82271D9D93B000A068DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D28F2BE9BF5B6932D018EB5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		981CC46B78A2ED6FE739210A /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ServerlessSwiftTalkClient/Pods-ServerlessSwiftTalkClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F43757F6624B8889ED0AF9BB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ServerlessSwiftTalkClient/Pods-ServerlessSwiftTalkClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D77B82111D9D93B000A068DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D740AFCA1DAD619B00757BE3 /* ProfileViewController.swift in Sources */,
+				D740AFC81DAD5F4D00757BE3 /* LoginViewController.swift in Sources */,
+				D740AFC51DAD4D7500757BE3 /* RegisterViewController.swift in Sources */,
+				D77B821B1D9D93B000A068DF /* HelloWorldViewController.swift in Sources */,
+				D77B82191D9D93B000A068DF /* AppDelegate.swift in Sources */,
+				D740AFCF1DB11DFD00757BE3 /* LoginGitHubViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77B82251D9D93B000A068DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D77B822B1D9D93B000A068DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D77B82141D9D93B000A068DF /* ServerlessSwiftTalkClient */;
+			targetProxy = D77B822A1D9D93B000A068DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D77B821C1D9D93B000A068DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77B821D1D9D93B000A068DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D77B82211D9D93B000A068DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D77B82221D9D93B000A068DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D77B82301D9D93B000A068DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D77B82311D9D93B000A068DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D77B82331D9D93B000A068DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 920ACE24CDA600DB74842FF8 /* Pods-ServerlessSwiftTalkClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ServerlessSwiftTalkClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cdslabs.ServerlessSwiftTalkClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D77B82341D9D93B000A068DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15A2B9E61327C37E2D9D68A9 /* Pods-ServerlessSwiftTalkClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ServerlessSwiftTalkClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cdslabs.ServerlessSwiftTalkClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D77B82361D9D93B000A068DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ServerlessSwiftTalkClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cdslabs.ServerlessSwiftTalkClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ServerlessSwiftTalkClient;
+			};
+			name = Debug;
+		};
+		D77B82371D9D93B000A068DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ServerlessSwiftTalkClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ibm.cdslabs.ServerlessSwiftTalkClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ServerlessSwiftTalkClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D77B82101D9D93B000A068DF /* Build configuration list for PBXProject "ServerlessSwiftTalkClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77B82301D9D93B000A068DF /* Debug */,
+				D77B82311D9D93B000A068DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77B82321D9D93B000A068DF /* Build configuration list for PBXNativeTarget "ServerlessSwiftTalkClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77B82331D9D93B000A068DF /* Debug */,
+				D77B82341D9D93B000A068DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D77B82351D9D93B000A068DF /* Build configuration list for PBXNativeTarget "ServerlessSwiftTalkClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D77B82361D9D93B000A068DF /* Debug */,
+				D77B82371D9D93B000A068DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D77B820D1D9D93B000A068DF /* Project object */;
+}

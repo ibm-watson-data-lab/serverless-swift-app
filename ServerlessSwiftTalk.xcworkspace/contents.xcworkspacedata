@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "container:"
+      name = "functions">
+      <FileRef
+         location = "group:functions">
+      </FileRef>
+   </Group>
+   <Group
+      location = "container:"
+      name = "client">
+      <FileRef
+         location = "group:client/ServerlessSwiftTalkClient/ServerlessSwiftTalkClient.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:client/Pods/Pods.xcodeproj">
+      </FileRef>
+   </Group>
+</Workspace>

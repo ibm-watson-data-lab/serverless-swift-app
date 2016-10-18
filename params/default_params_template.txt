@@ -1,0 +1,4 @@
+couchdb={"host":"db", "scheme":"http", "port":5984}
+jwt_secret="$uper$ecret"
+oauth_client_id="XXX"
+oauth_client_secret="XXX"

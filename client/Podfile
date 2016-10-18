@@ -1,0 +1,9 @@
+platform :ios, '10.0'
+use_frameworks!
+
+workspace 'ServerlessSwiftTalk'
+
+target 'ServerlessSwiftTalkClient' do
+   project 'ServerlessSwiftTalkClient/ServerlessSwiftTalkClient'  
+   pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git', :tag => '3.1.0' 
+end

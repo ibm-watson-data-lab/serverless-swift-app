@@ -1,0 +1,23 @@
+version: '2'
+services:
+  db:
+    image: klaemo/couchdb:2.0.0    
+    ports:
+      - "35984:5984"
+  web:
+    build:
+      context: ./
+      dockerfile: ./docker-compose.web.Dockerfile
+    volumes:
+      - ./functions:/usr/sst_functions
+      - ./params:/usr/sst_params
+      - ./test:/usr/src
+    environment:
+      - KITURA_SAMPLE_HOME=/usr/src
+      - SST_FUNCTIONS_HOME=/usr/sst_functions
+      - SST_PARAMS_HOME=/usr/sst_params
+    entrypoint: /usr/src/startup.sh
+    ports:
+      - "38090:8090"
+    depends_on:
+      - db
