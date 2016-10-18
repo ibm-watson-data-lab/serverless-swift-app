@@ -43,7 +43,7 @@ If you haven't uploaded or created any actions in OpenWhisk this will return an 
     $ ./wsk_deploy_func_to_prod create HelloWorld ../functions/HelloWorld.swift
     ```
 
-2. Run `wsk action list` or go to [the OpenWhisk editor](https://new-console.ng.bluemix.net/openwhisk/editor) and confirm a new action called `HelloWorld` has been created.
+2. Run `wsk action list` or go to the [OpenWhisk editor](https://new-console.ng.bluemix.net/openwhisk/editor) and confirm a new action called `HelloWorld` has been created.
 
 ## Test the Hello World Function
 
@@ -103,6 +103,28 @@ You can test the Hello World function in a few different ways:
 Note: you can find the REST Enpoint by selecting the `HelloWorld` action in the OpenWhisk editor, and clicking **View REST Endpoint** in the bottom right.
 4. Run *client/ServerlessSwiftClient* project in an iPhone 7 simulator. The app should look similar to the following:
 
-![Hello World](ios_sim_helloworld.png?raw=true "Hello World")
+    ![Hello World](ios_sim_helloworld1.png?raw=true)
+
+The app contains four tabs. For now we'll focus on the Hello World tab. In the Hello World tab there are two ways
+to execute the Hello World OpenWhisk Swift function. We'll start with **Hello World / OpenWhisk Endpoint**.
+
+By default all OpenWhisk actions have a REST endpoint. The REST endpoint requires Basic Auth.
+You can find the Basic Auth header in the [OpenWhisk editor](https://new-console.ng.bluemix.net/openwhisk/editor).
+Set the **Auth Header** value in the app by following these instructions:
+
+1. Go to the [OpenWhisk editor](https://new-console.ng.bluemix.net/openwhisk/editor).
+2. Select the **Hello World** action.
+3. Click the **View REST Endpoint** link:
+
+    ![Hello World Function](wsk_editor1.png?raw=true)
+
+4. On the REST Endpoint page scroll down until you find the **cURL Example**.
+5. Click the **Show Full Command** button:
+
+    ![Hello World REST Endpoint](wsk_editor2.png?raw=true)
+
+6. Copy the Basic Auth header, including "Basic" and paste into the iOS app (first click **Edit > Paste** then select the **Auth Header** text field and click **Paste** in the popup).
+
+Your now ready to run the Hello World function from your iOS app. 
 
 
