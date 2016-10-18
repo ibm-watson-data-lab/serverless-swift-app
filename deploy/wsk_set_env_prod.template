@@ -1,0 +1,1 @@
+wsk property set --apihost openwhisk.ng.bluemix.net --auth <USERNAME>:<PASSWORD> --namespace "<IBM_ID>_<BLUEMIX_SPACE>"

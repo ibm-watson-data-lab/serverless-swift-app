@@ -4,7 +4,7 @@ This repository contains a sample iOS app developed in Swift and an app backend 
 
 ## Goals
 
-The primary goal of this project was to develop and deploy a fully featured app backend in Swift and deploy on OpenWhisk.
+The primary goal of this project was to develop a fully featured app backend in Swift and deploy to OpenWhisk.
 The sample provides the ability to:
 
 1. Register as a new user - this demonstrates how you can use a serverless function to connect and save information to a database.
@@ -17,7 +17,7 @@ The sample provides the ability to:
 
 ## Where to Start
 
-The best place to start is by deploying the [Hello World example](docs/helloworld/).
+The best place to start is by deploying the [Hello World example](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/helloworld).
 This will walk you through installing the OpenWhisk CLI, deploying your first Swift function to OpenWhisk
 using a custom bash script (we'll explain why later), launching the sample iOS app from Xcode, and executing
 your Swift function.
