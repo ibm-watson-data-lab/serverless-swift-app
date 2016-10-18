@@ -26,10 +26,11 @@ Follow these steps to make sure the OpenWhisk CLI is configured properly.
 1. Open a Terminal and navigate to the repo directory.
 2. Run the *deploy/wsk_set_env_prod.sh* script. This will set up your OpenWhisk CLI environment:
 
-`$ ./deploy/wsk_set_env_prod.sh`
+    `$ ./deploy/wsk_set_env_prod.sh`
+
 3. Run following command:
 
-`$ wsk action list`
+    `$ wsk action list`
 
 If you haven't uploaded or created any actions in OpenWhisk this will return an empty result.
 
@@ -37,10 +38,10 @@ If you haven't uploaded or created any actions in OpenWhisk this will return an 
 
 1. In the Terminal navigate to the deploy directory and run the *wsk_deploy_func_to_prod* script:
 
-```
-$ cd serverless-swift-app/deploy
-$ ./wsk_deploy_func_to_prod create HelloWorld ../functions/HelloWorld.swift
-```
+    ```
+    $ cd serverless-swift-app/deploy
+    $ ./wsk_deploy_func_to_prod create HelloWorld ../functions/HelloWorld.swift
+    ```
 
 2. Run `wsk action list` or go to [the OpenWhisk editor](https://new-console.ng.bluemix.net/openwhisk/editor) and confirm a new action called `HelloWorld` has been created.
 
@@ -50,48 +51,49 @@ You can test the Hello World function in a few different ways:
 
 1. From the OpenWhisk editor select the `HelloWorld` action and hit the **Run This Action** button. Your response should look similar to the following:
 
-```
-{
-    "reply": "Hello stranger!"
-}
-```
+    ```
+    {
+        "reply": "Hello stranger!"
+    }
+    ```
 2. From the Terminal run `wsk action invoke -b HelloWorld`. Your response should look similar to the following:
 
-```
-ok: invoked HelloWorld with id 5f57c501503747269ee2dd74ed0c2bf0
-{
-    "activationId": "5f57c501503747269ee2dd74ed0c2bf0",
-    "annotations": [
-        {
-            "key": "limits",
-            "value": {
-                "logs": 10,
-                "memory": 256,
-                "timeout": 180000
+
+    ```
+    ok: invoked HelloWorld with id 5f57c501503747269ee2dd74ed0c2bf0
+    {
+        "activationId": "5f57c501503747269ee2dd74ed0c2bf0",
+        "annotations": [
+            {
+                "key": "limits",
+                "value": {
+                    "logs": 10,
+                    "memory": 256,
+                    "timeout": 180000
+                }
+            },
+            {
+                "key": "path",
+                "value": "<BLUEMIX_ID>_<BLUEMIX_SPACE>/HelloWorld"
             }
+        ],
+        "end": 1476221243388,
+        "logs": [],
+        "name": "HelloWorld",
+        "namespace": "BLUEMIX_ID",
+        "publish": false,
+        "response": {
+            "result": {
+                "reply": "Hello stranger!"
+            },
+            "status": "success",
+            "success": true
         },
-        {
-            "key": "path",
-            "value": "<BLUEMIX_ID>_<BLUEMIX_SPACE>/HelloWorld"
-        }
-    ],
-    "end": 1476221243388,
-    "logs": [],
-    "name": "HelloWorld",
-    "namespace": "BLUEMIX_ID",
-    "publish": false,
-    "response": {
-        "result": {
-            "reply": "Hello stranger!"
-        },
-        "status": "success",
-        "success": true
-    },
-    "start": 1476221243350,
-    "subject": "BLUEMIX_ID",
-    "version": "0.0.3"
-}
-```
+        "start": 1476221243350,
+        "subject": "BLUEMIX_ID",
+        "version": "0.0.3"
+    }
+    ```
 
 ## Test the Hello World Function from the iOS app
 
