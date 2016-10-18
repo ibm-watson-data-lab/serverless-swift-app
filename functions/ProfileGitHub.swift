@@ -19,7 +19,7 @@ func main(args: [String:Any]) -> [String:Any] {
             let accessToken = payload["access_token"]
             DispatchQueue.global().sync {
                 var options: [ClientRequest.Options] = []
-                options.append(.headers(["User-Agent": "serverless-swift-talk"])) // User-Agent required by GitHub
+                options.append(.headers(["User-Agent": "serverless-swift-app"])) // User-Agent required by GitHub
                 options.append(.schema("https://"))
                 options.append(.hostname("api.github.com"))
                 options.append(.path("/user?access_token=\(accessToken!)"))

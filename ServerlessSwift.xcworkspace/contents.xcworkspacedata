@@ -12,7 +12,7 @@
       location = "container:"
       name = "client">
       <FileRef
-         location = "group:client/ServerlessSwiftTalkClient/ServerlessSwiftTalkClient.xcodeproj">
+         location = "group:client/ServerlessSwiftClient/ServerlessSwiftClient.xcodeproj">
       </FileRef>
       <FileRef
          location = "group:client/Pods/Pods.xcodeproj">
