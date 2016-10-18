@@ -1,6 +1,6 @@
 //
 //  LoginGitHubViewController.swift
-//  ServerlessSwiftTalkClient
+//  ServerlessSwiftClient
 //
 //  Created by Mark Watson on 10/14/16.
 //  Copyright © 2016 IBM CDS Labs. All rights reserved.

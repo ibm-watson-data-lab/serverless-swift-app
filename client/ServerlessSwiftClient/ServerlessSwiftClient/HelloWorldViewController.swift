@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  ServerlessSwiftTalkClient
+//  ServerlessSwiftClient
 //
 //  Created by Mark Watson on 9/29/16.
 //  Copyright © 2016 IBM CDS Labs. All rights reserved.

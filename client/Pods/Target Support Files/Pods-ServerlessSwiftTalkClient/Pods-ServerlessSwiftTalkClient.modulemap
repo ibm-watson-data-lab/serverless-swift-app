@@ -1,6 +1,0 @@
-framework module Pods_ServerlessSwiftTalkClient {
-  umbrella header "Pods-ServerlessSwiftTalkClient-umbrella.h"
-
-  export *
-  module * { export * }
-}
