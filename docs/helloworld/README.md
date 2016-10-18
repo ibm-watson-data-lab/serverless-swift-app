@@ -27,7 +27,6 @@ Follow these steps to make sure the OpenWhisk CLI is configured properly.
 2. Run the *deploy/wsk_set_env_prod.sh* script. This will set up your OpenWhisk CLI environment:
 
 `$ ./deploy/wsk_set_env_prod.sh`
-
 3. Run following command:
 
 `$ wsk action list`
@@ -56,7 +55,6 @@ You can test the Hello World function in a few different ways:
     "reply": "Hello stranger!"
 }
 ```
-
 2. From the Terminal run `wsk action invoke -b HelloWorld`. Your response should look similar to the following:
 
 ```
