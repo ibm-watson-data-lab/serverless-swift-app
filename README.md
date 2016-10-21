@@ -13,11 +13,25 @@ The sample provides the ability to:
 4. Login using a 3rd party provider - this demonstrates how you can use OAuth2 with serverless functions, in this case we login using GitHub.
 5. Retrieve the logged in user's profile from the 3rd party - this demonstrates how you can make API calls to the 3rd party authentication system to retrieve profile information.
 
-## Other Goals
-
-## Where to Start
+## Hello World
 
 The best place to start is by deploying the [Hello World example](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/helloworld).
 This will walk you through installing the OpenWhisk CLI, deploying your first Swift function to OpenWhisk
 using a custom bash script (we'll explain why later), launching the sample iOS app from Xcode, and executing
 your Swift function.
+
+## Authentication and Authorization
+
+Once you have deployed the [Hello World example](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/helloworld)
+and would like to deploy and run the rest of the examples refer to the 
+[Authentication and Authorization README](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/auth).
+
+## Testing
+
+For more information on some of the challanges we faced and utilities we built to help support local development and testing
+refer to the [Testing README](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/test).
+
+## Deployment
+
+For more information on how we support deploying to different environments and supporting 3rd party libraries in our functions
+refer to the [Deployment README](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/deploy).
