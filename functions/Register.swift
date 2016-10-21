@@ -6,9 +6,6 @@ import SwiftyJSON
 // $DefaultParam:couchdb
 
 func main(args: [String:Any]) -> [String:Any] {
-    if (args["keep_alive"] as? Bool == true) {
-        return ["keep_alive": "true"]
-    }
     let db = "users"
     let couchdbClient = getCouchdbClient(args: args)
     var response : [String:Any]?

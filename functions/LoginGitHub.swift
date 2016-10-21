@@ -9,9 +9,6 @@ import SwiftyJSON
 // $DefaultParam:oauth_client_secret
 
 func main(args: [String:Any]) -> [String:Any] {
-    if (args["keep_alive"] as? Bool == true) {
-        return ["keep_alive": "true"]
-    }
     var response : [String: Any]?
     DispatchQueue.global().sync {
         var options: [ClientRequest.Options] = []

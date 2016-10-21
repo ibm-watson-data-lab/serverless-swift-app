@@ -7,9 +7,6 @@ import SwiftyJSON
 // $DefaultParam:jwt_secret
 
 func main(args: [String:Any]) -> [String:Any] {
-    if (args["keep_alive"] as? Bool == true) {
-        return ["keep_alive": "true"]
-    }
     let jwt = args["jwt"] as? String
     if (jwt != nil) {
         let jwtSecret = args["jwt_secret"] as! String
