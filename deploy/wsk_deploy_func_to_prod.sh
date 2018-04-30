@@ -8,11 +8,15 @@ absPath() {
         echo "$(pwd -P)/$(basename "$1")"
     fi
 }
-
 ./wsk_set_env_prod.sh	
-action=$1
-func_name=$2
-func_file_name=$3
+func_name=$1
+func_file_name=$2
+func=$(wsk action get $func_name 2> /dev/null)
+action='create'
+if [ -n "$func" ]
+    then
+        action='update'
+fi
 wsk_cmd=$(echo 'wsk action '$action' --kind swift:3 -t 180000')
 mkdir -p ./release/prod
 func_rel_file_name=$(echo $func_file_name | sed 's/.*\///')

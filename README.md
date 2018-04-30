@@ -33,5 +33,5 @@ refer to the [Testing README](https://github.com/ibm-cds-labs/serverless-swift-a
 
 ## Deployment
 
-For more information on how we support deploying to different environments and supporting 3rd party libraries in our functions
+For more information on how we support 3rd party libraries in our functions and deploy to different environments
 refer to the [Deployment README](https://github.com/ibm-cds-labs/serverless-swift-app/tree/master/docs/deploy).
