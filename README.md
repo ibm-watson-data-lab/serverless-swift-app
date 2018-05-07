@@ -1,3 +1,5 @@
+:no_entry_sign: This project is no longer maintained
+
 # Overview
 
 This repository contains a sample iOS app developed in Swift and an app backend developed using Serverless Swift functions.
